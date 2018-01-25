@@ -1,0 +1,22 @@
+body{
+    margin:0;
+}
+
+nav{
+    display:flex;
+    justify-content:flex-end;
+    background:linear-gradient(to bottom,#0061ff,lightblue,white);
+    padding:4vh;
+}
+
+nav a{
+    color:black;
+    padding-right:1vh;
+}
+
+nav a:hover{
+    border:1px black solid;
+    padding:2vh;
+    background:white;
+    color:black;
+}
