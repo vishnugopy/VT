@@ -36,8 +36,18 @@ nav a:hover{
     
 }
 
-.wel{
-    background-image: url(IMGS/2.jpg);
+.box{
+    font-size:1.5vh;
+    padding:1vh;
+    animation: blinds 3s linear forwards ;
+    background: linear-gradient(0deg, lightblue 25%, transparent 25%) 0 0 / 0.5em 0.5em
+              , linear-gradient(0deg, white 50%, transparent 50%) 0 0 / 1em 1em;
+    color: adjust-hue(white,180);  
+}
+
+
+.welc{
+    background-image: url(IMGS/3.jpg);
     background-attachment: fixed;
     background-color:black;
     background-blend-mode:hard-light;
@@ -53,29 +63,7 @@ h1{
     color:white;
 }
 
-.box{
-    font-size:1.5vh;
-    padding:1vh;
-    animation: blinds 3s linear forwards ;
-    background: linear-gradient(0deg, lightblue 25%, transparent 25%) 0 0 / 0.5em 0.5em
-              , linear-gradient(0deg, white 50%, transparent 50%) 0 0 / 1em 1em;
-    color: adjust-hue(white,180);  
-}
-
-h2{
-    margin:0;
-}
-
-.Intro{
-    background:black;
-    color:white;
-    padding:2vh;
-    border-left:1px solid white;
-    border-right:1px solid white;
-    margin-left:0.5vh;
-    margin-right:1vh;
-}
-
+  
 @keyframes blinds {
   100% {
     background-position: 0 0, 0 -3em;
