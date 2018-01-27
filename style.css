@@ -12,6 +12,7 @@ nav{
 nav a{
     color:white;
     padding:2vh;
+    text-decoration: none;
 }
 
 nav a:hover{
@@ -35,11 +36,24 @@ nav a:hover{
     background-blend-mode:hard-light;
     background-repeat:no-repeat;
     background-position:center;
-    color:white;
     text-align:center;
-    padding:20vh;
+    padding:14vh;
 }
 
+h1{
+    text-shadow: 0 5px 5px blue, 0 5px 5px blue;
+    font-size:6vh;
+    color:white;
+}
+
+.box{
+    font-size:1.5vh;
+    padding:0.5vh;
+    animation: blinds 0.75s linear forwards;
+    background: linear-gradient(0deg, lightblue 25%, transparent 25%) 0 0 / 0.5em 0.5em
+              , linear-gradient(0deg, white 50%, transparent 50%) 0 0 / 1em 1em;
+    color: adjust-hue(white,180);  
+}
 
 @keyframes blinds {
   100% {
