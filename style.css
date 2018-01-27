@@ -1,18 +1,25 @@
 body{
     margin:0;
+    background:black
 }
 
 nav{
     display:flex;
-    justify-content:flex-end;
+    justify-content:space-between;
     background:black;
     padding:4vh;
+}
+
+.logo{
+    height:50px;
+    width:auto;
 }
 
 nav a{
     color:white;
     padding:2vh;
     text-decoration: none;
+    font-size:3vh;
 }
 
 nav a:hover{
@@ -62,7 +69,11 @@ h2{
 .Intro{
     background:black;
     color:white;
-    padding:1vh;
+    padding:2vh;
+    border-left:1px solid white;
+    border-right:1px solid white;
+    margin-left:0.5vh;
+    margin-right:1vh;
 }
 
 @keyframes blinds {
