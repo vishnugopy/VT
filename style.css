@@ -51,6 +51,7 @@ h1{
     text-shadow: 0 5px 5px blue, 0 5px 5px blue;
     font-size:6vh;
     color:white;
+    font-family: 'Supermercado One', cursive;
 }
 
 .box{
@@ -59,11 +60,13 @@ h1{
     animation: blinds 3s linear forwards ;
     background: linear-gradient(0deg, lightblue 25%, transparent 25%) 0 0 / 0.5em 0.5em
               , linear-gradient(0deg, white 50%, transparent 50%) 0 0 / 1em 1em;
-    color: adjust-hue(white,180);  
+    color: adjust-hue(white,180); 
+    font-family: 'Alegreya Sans', sans-serif;
 }
 
 h2{
     margin:0;
+    font-family: 'Graduate', cursive;
 }
 
 .Intro{
@@ -75,6 +78,32 @@ h2{
     margin-left:0.5vh;
     margin-right:1vh;
 }
+
+a{
+     font-family: 'Graduate', cursive;
+    
+}
+
+.tex{
+    font-family: 'Signika', sans-serif;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @keyframes blinds {
   100% {

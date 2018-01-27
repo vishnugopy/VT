@@ -43,6 +43,7 @@ nav a:hover{
     background: linear-gradient(0deg, lightblue 25%, transparent 25%) 0 0 / 0.5em 0.5em
               , linear-gradient(0deg, white 50%, transparent 50%) 0 0 / 1em 1em;
     color: adjust-hue(white,180);  
+    font-family: 'Alegreya Sans', sans-serif;
 }
 
 
@@ -61,14 +62,27 @@ h1{
     text-shadow: 0 5px 5px blue, 0 5px 5px blue;
     font-size:6vh;
     color:white;
+    font-family: 'Supermercado One', cursive;
 }
 
+h2{
+    margin:0;
+    font-family: 'Graduate', cursive;
+}
+
+a{
+     font-family: 'Graduate', cursive;
+    
+}
   
 @keyframes blinds {
   100% {
     background-position: 0 0, 0 -3em;
     background-size: 0 0, 1em 6em;
   }
+    
+    
+
 
 
     
