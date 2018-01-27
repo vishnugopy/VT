@@ -48,11 +48,21 @@ h1{
 
 .box{
     font-size:1.5vh;
-    padding:0.5vh;
-    animation: blinds 0.75s linear forwards;
+    padding:1vh;
+    animation: blinds 3s linear forwards ;
     background: linear-gradient(0deg, lightblue 25%, transparent 25%) 0 0 / 0.5em 0.5em
               , linear-gradient(0deg, white 50%, transparent 50%) 0 0 / 1em 1em;
     color: adjust-hue(white,180);  
+}
+
+h2{
+    margin:0;
+}
+
+.Intro{
+    background:black;
+    color:white;
+    padding:1vh;
 }
 
 @keyframes blinds {
