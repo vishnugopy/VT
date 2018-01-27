@@ -20,9 +20,12 @@ nav a:hover{
     padding-bottom:2vh;
     padding-left:4vh;
     padding-right:4vh;
-    background:white;
     color:black;
-    animation:slow 1s;
+    animation: blinds 0.75s linear forwards;
+    background: linear-gradient(0deg, blue 25%, transparent 25%) 0 0 / 0.5em 0.5em
+              , linear-gradient(0deg, lightblue 50%, transparent 50%) 0 0 / 1em 1em;
+    color: adjust-hue(white,180);
+    
 }
 
 .wel{
@@ -36,3 +39,10 @@ nav a:hover{
     text-align:center;
     padding:20vh;
 }
+
+
+@keyframes blinds {
+  100% {
+    background-position: 0 0, 0 -3em;
+    background-size: 0 0, 1em 6em;
+  }
