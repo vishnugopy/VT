@@ -62,7 +62,7 @@ h1{
     text-shadow: 0 5px 5px blue, 0 5px 5px blue;
     font-size:6vh;
     color:white;
-    font-family: 'Supermercado One', cursive;
+    font-family: 'Berkshire Swash', cursive;
 }
 
 h2{
@@ -73,6 +73,11 @@ h2{
 a{
      font-family: 'Graduate', cursive;
     
+}
+
+h3{
+    font-family: 'Righteous', cursive;
+
 }
   
 @keyframes blinds {

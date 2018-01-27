@@ -51,7 +51,7 @@ h1{
     text-shadow: 0 5px 5px blue, 0 5px 5px blue;
     font-size:6vh;
     color:white;
-    font-family: 'Supermercado One', cursive;
+    font-family: 'Berkshire Swash', cursive;
 }
 
 .box{
@@ -88,7 +88,39 @@ a{
     font-family: 'Signika', sans-serif;   
 }
 
+.con{
+    color:white;
+    padding:2vh;
+    border-left:1px solid white;
+    border-right:1px solid white;
+    margin-left:0.5vh;
+    margin-right:1vh;
+}
 
+
+
+.fley{
+    color:white;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+
+.fley a{
+    text-decoration: none;
+    color:white;
+    background:blue;
+    margin:2vh;
+    padding-right:23vh;
+    padding-left:23vh;
+
+}
+
+h3{
+    font-family: 'Righteous', cursive;
+
+}
 
 
 
