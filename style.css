@@ -108,12 +108,18 @@ a{
 }
 
 .fley a{
-    text-decoration: none;
     color:white;
-    background:blue;
+    text-decoration: none;
     margin:2vh;
     padding-right:23vh;
     padding-left:23vh;
+    animation: blinds 5s;
+    animation-direction: alternate;
+    animation-iteration-count:25;
+    background: linear-gradient(0deg, lightblue 25%, transparent 25%) 0 0 / 0.5em 0.5em
+              , linear-gradient(0deg, blue 98%, transparent 50%) 0 0 / 1em 1em;
+    font-family: 'Alegreya Sans', sans-serif;
+    
 
 }
 
@@ -136,12 +142,12 @@ h3{
 
 
 
-
 @keyframes blinds {
   100% {
     background-position: 0 0, 0 -3em;
     background-size: 0 0, 1em 6em;
   }
+    
 
 
     
