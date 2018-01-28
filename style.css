@@ -109,6 +109,7 @@ a{
 
 .fley a{
     color:white;
+    text-shadow: 0 5px 5px black, 0 5px 5px black;
     text-decoration: none;
     margin:2vh;
     padding-right:23vh;
@@ -116,8 +117,8 @@ a{
     animation: blinds 5s;
     animation-direction: alternate;
     animation-iteration-count:25;
-    background: linear-gradient(0deg, lightblue 25%, transparent 25%) 0 0 / 0.5em 0.5em
-              , linear-gradient(0deg, blue 98%, transparent 50%) 0 0 / 1em 1em;
+    background: linear-gradient(0deg, blue 25%, transparent 25%) 0 0 / 0.5em 0.5em
+              , linear-gradient(0deg, #0061ff 100%, transparent 50%) 0 0 / 1em 1em;
     font-family: 'Alegreya Sans', sans-serif;
     
 
